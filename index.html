@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Lisandro De los Santos</title>
+        <title>Lisandro Martínez</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet" href="./css/index-responsive.css">
+        <link rel="shortcut icon" href="./assets/Logo-DRAGTEK.png" type="image/x-icon">
     </head>
     <body>
         <header class="cabecera">
@@ -24,10 +26,10 @@
                 </ul>
             </nav>
             <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
-            <h1 class="titulo">Lisandro De los Santos</h1>
+            <h1 class="titulo">Lisandro Martínez</h1>
             <div class="logo"><img src="./assets/Logo-DRAGTEK.png" alt="DRAGTEK"></div>
         </header>
-        <section class="seccion">
+        <section class="seccion seccionReverse">
             <div class="caja">
                 <h2 class="subtitulo">
                     <i class="material-icons">assignment_ind</i>Datos Generales
@@ -103,7 +105,7 @@
                         <p>
                             Aplicación que muestra el funcionamento de sockets para la visualización de información en tiempo real. Que funciona en conjunto 
                             con una aplicación móvil híbrida que se puede descargar y compilar con IONIC 
-                            <a href="https://github.com/LisandroMartinez25/RealTime/tree/master/frontend/movilRealTime">aquí</a>. 
+                            <a class="m-0" href="https://github.com/LisandroMartinez25/RealTime/tree/master/frontend/movilRealTime" target="_blank">aquí</a>. 
                             Para esta aplicación se utilizó <b>Angular 7, IONIC 3,  CSS3, Angular Material, SocketIO, NodeJS, Express y MySQL.</b>
                         </p>
                     </div>
@@ -242,22 +244,35 @@
                     </div>
                     <div class="form-content">
                         <h4 for="correo">Correo:</h4>
-                        <input type="text" name="correo" id="correo">
+                        <input type="email" name="correo" id="correo">
                     </div>
                     <div class="form-content">
                         <h4 for="comentario">Comentaio:</h4>
                         <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
                     </div>
-                    <button class="btn">Enviar</button>
+                    <input class="btn" type="button" value="Enviar" />
                 </form>
             </div>
         </section>
         <footer>
-            <a href=""><img src="./assets/face.png" alt=""></a>
-            <a href=""><img src="./assets/twitter.png" alt=""></a>
-            <a href=""><img src="./assets/insta.png" alt=""></a>
-            <a href=""><img src="./assets/linkedin.png" alt=""></a>
-            <a href=""><img src="./assets/github.jpg" alt=""></a>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/lisann.boost" target="_blank"><img src="./assets/face.png" alt="lisann.boost"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/lisklaiber" target="_blank"><img src="./assets/twitter.png" alt="@lisklaiber"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/lisann.boost/" target="_blank"><img src="./assets/insta.png" alt="lisann.boost"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/lisandro-uriel-de-los-santo-mart%C3%ADne-827075102/" target="_blank"><img src="./assets/linkedin.png" alt="Lisandro Uriel De los Santos Martínez"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/LisandroMartinez25" target="_blank"><img src="./assets/github.jpg" alt="LisandroMartinez25"></a>
+                </li>
+            </ul>
+            
         </footer>
     </body>
 </html>
