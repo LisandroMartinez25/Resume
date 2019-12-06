@@ -1,0 +1,135 @@
+*, *:before, *:after {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding-top: 120px;
+    background: #F5F5F5;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecera {
+    width: 100%;
+    padding: 20px;
+    background: #0F1626;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.logo img {
+    display: block;
+    width: 85px;
+    margin: 0 auto;
+}
+
+.seccion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.seccion .caja {
+    width: 60%;
+    padding: 10px;
+}
+
+.subtitulo {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    /* border: solid 1px #26547C; */
+    background: #AB987A;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.foto {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+}
+
+.seccion .caja2, .cajaImg{
+    width: 40%;
+    padding: 10px;
+}
+
+.cajaImg {
+    align-self: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list-icon li {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.list-icon li i {
+    margin-right: 10px;
+}
+
+hr {
+    border: 1px solid #26547C;
+}
+
+.proyecto {
+    margin-bottom: 30px;
+}
+
+.proyecto h3 {
+    color: #26547C;
+}
+
+.proyecto h3 span{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.proyecto a {
+    color: #AB987A;
+}
+
+.proyecto p {
+    text-align: justify;
+}
+
+.proyecto h4 {
+    color: #F05D5E;
+}
