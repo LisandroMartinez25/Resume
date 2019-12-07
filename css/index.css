@@ -28,6 +28,7 @@ a {
     justify-content: space-between;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .logo img {
@@ -42,11 +43,13 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
+    position: relative;
 }
 
 .seccion .caja {
     width: 60%;
     padding: 20px;
+    position: relative;
 }
 
 .subtitulo {
@@ -85,6 +88,7 @@ a {
 .seccion .caja2, .cajaImg{
     width: 40%;
     padding: 20px;
+    position: relative;
 }
 
 .cajaImg {
@@ -307,4 +311,10 @@ footer ul li a img:hover {
 
 .m-0 {
     margin: 0 !important;
+}
+
+.scrollMenu {
+    position: absolute;
+    top: -120px;
+    visibility: hidden;
 }
