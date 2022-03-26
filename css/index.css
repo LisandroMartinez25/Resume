@@ -16,10 +16,19 @@ a {
     text-decoration: none;
 }
 
+.titleName {
+    margin: 0;
+}
+
+.subtitleName {
+    text-align: center;
+    margin: 0;
+}
+
 .cabecera {
     width: 100%;
-    padding: 20px;
-    background: #0F1626;
+    padding: 15px;
+    background: #155b70;
     color: #FFF;
     display: flex;
     flex-direction: row;
@@ -48,16 +57,16 @@ a {
 
 .seccion .caja {
     width: 60%;
-    padding: 20px;
+    padding: 15px;
     position: relative;
 }
 
 .subtitulo {
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     color: #FFF;
-    background: #AB987A;
-    border-radius: 6px;
+    background: #155b70;
+    border-radius: 15px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -82,12 +91,12 @@ a {
 }
 
 .content {
-    padding: 20px;
+    padding: 15px;
 }
 
 .seccion .caja2, .cajaImg{
     width: 40%;
-    padding: 20px;
+    padding: 15px;
     position: relative;
 }
 
@@ -97,8 +106,14 @@ a {
 
 .skills {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .list-icon {
@@ -129,7 +144,7 @@ hr {
 
 .proyecto h3, .skill h3 {
     color: #26547C;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .proyecto h3 span{
@@ -153,12 +168,16 @@ hr {
 }
 
 .proyecto h4 {
-    color: #8B2635;
+    color: #059cd8;
     margin-left: 15px;
 }
 
 .skill {
-    width: 49%;
+    width: 100%;
+}
+
+.skill h3 {
+    text-align: center;
 }
 
 .barraBack {
@@ -166,7 +185,7 @@ hr {
 }
 
 .barraBack {
-    background: #FFF;
+    background: #c2c2c2;
     height: 25px;
     border-radius: 25px;
     margin: 0;
@@ -174,7 +193,7 @@ hr {
 
 .barraColor {
     cursor: pointer;
-    background: #1F7A8C;
+    background: #059cd8;
     height: 25px;
     border-radius: 25px;
     text-align: right;
@@ -183,7 +202,7 @@ hr {
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
-    color: #1F7A8C;
+    color: #059cd8;
     margin: 0;
 }
 
@@ -196,10 +215,12 @@ hr {
 .w-95 { width: 95%; }
 .w-85 { width: 85%; }
 .w-75 { width: 75%; }
+.w-70 { width: 70%; }
+.w-60 { width: 60%; }
 
 .formulario {
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -208,7 +229,7 @@ hr {
 }
 
 .formulario .form-content {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
     font-size: 18px;
 }
@@ -261,8 +282,8 @@ hr {
 }
 
 .formulario .btn:hover {
-    border: 1px solid #26547C;
-    background: #26547C;
+    border: 1px solid #155b70;
+    background: #155b70;
     color: #FFF;
 }
 
@@ -270,7 +291,7 @@ footer {
     width: 100%;
     padding: 30px 0;
     margin-top: 30px;
-    background: #0F1626;
+    background: #155b70;
 }
 
 footer ul {

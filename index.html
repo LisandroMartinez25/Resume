@@ -10,9 +10,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Lisandro Martínez</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="./css/index.min.css">
-        <link rel="stylesheet" href="./css/menu.min.css">
-        <link rel="stylesheet" href="./css/index-responsive.min.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet" href="./css/index-responsive.css">
         <link rel="shortcut icon" href="./assets/Logo-DRAGTEK-icon.png" type="image/x-icon">
     </head>
     <body>
@@ -30,16 +30,21 @@
                 </ul>
             </nav>
             <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
-            <h1 class="titulo">Lisandro Martínez</h1>
-            <div class="logo"><img src="./assets/Logo-DRAGTEK-chic.png" alt="DRAGTEK"></div>
+            <div>
+                <h1 class="titleName">Lisandro Martínez</h1>
+                <h3 class="subtitleName">( Front-End Developer )</h3>
+            </div>
+            <div class="logo">
+                <!-- <img src="./assets/Logo-DRAGTEK-chic.png" alt="DRAGTEK"> -->
+            </div>
         </header>
         <section class="seccion seccionReverse">
             <span class="scrollMenu" id="Datos-Generales"></span>
             <div class="caja">
                 <h2 class="subtitulo">
-                    <i class="material-icons">assignment_ind</i>Datos Generales
+                    <i class="material-icons">assignment_ind</i>About Me
                 </h2>
-                <div class="content skills">
+                <div class="content personalInfo">
                     <ul class="list-icon">
                         <li>
                             <i class="material-icons">person</i>Lisandro Uriel De los Santos Martínez
@@ -48,18 +53,18 @@
                             <i class="material-icons">email</i>lisann.mtz@gmail.com
                         </li>
                         <li>
-                            <i class="material-icons">house</i>Tláhuac, CDMX
+                            <i class="material-icons">house</i>Tláhuac, CDMX, México
                         </li>
                     </ul>
                     <ul class="list-icon">
                         <li>
-                            <i class="material-icons">phone</i> 55 8233-8668
+                            <i class="material-icons">phone</i> +52 55 8233-8668
                         </li>
                         <li>
-                            <i class="material-icons">hourglass_full</i>24 años
+                            <i class="material-icons">hourglass_full</i>26 years old
                         </li>
                         <li>
-                            <i class="material-icons">work</i>Desarrollador Front-End
+                            <i class="material-icons">work</i>Front-End Developer
                         </li>
                     </ul>
                 </div>
@@ -72,96 +77,69 @@
         </section>
         <section class="seccion">
             <div class="caja">
-                <span class="scrollMenu" id="Book"></span>
-                <h2 class="subtitulo">
-                    <i class="material-icons">book</i>Book
-                </h2>
-                <div class="content">
-                    <div class="proyecto">
-                        <h3>Trazo de Ruta</h3>
-                        <a href="http://174.138.0.228/Ruta/" target="_blank">http://174.138.0.228/Ruta/</a>
-                        <p>
-                           Aplicación que te permite realizar un trazo de ruta a partir de 2 direcciones ingresadas que se autocompletan. 
-                           Usando <b>Angular 8, CSS3, Angular Material y las API's de google maps.</b>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="proyecto">
-                        <h3>Almacen</h3>
-                        <a href="http://174.138.0.228/Almacen/" target="_blank">http://174.138.0.228/Almacen/</a>
-                        <p>
-                            Aplicación para administrar la entrada y salida de productos. Visualizando los pedidos, producto en stock, por cobrar, 
-                            y ubicación del producto en stock. Utilizando <b>Angular 6, CSS3, Angular Material, NodeJS, Express y MySQL.</b>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="proyecto">
-                        <h3>ATSAN</h3>
-                        <a href="http://174.138.0.228/ATSAN/" target="_blank">http://174.138.0.228/ATSAN/</a>
-                        <p>
-                            Aplicación administrar el flujo de un proceso, ver el estatus en el que se encuentra, así como las subtareas del proceso,
-                            agregar indicadores para cada proceso, crear plantillas de un proceso, asignar tareas a los distintos usuarios y a su vez 
-                            un rol. Utilizando <b>Angular 6, CSS3, Angular Material, NodeJS, Express y MySQL.</b>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="proyecto">
-                        <h3>Real Time</h3>
-                        <a href="http://174.138.0.228/RealTime/" target="_blank">http://174.138.0.228/RealTime/</a>
-                        <p>
-                            Aplicación que muestra el funcionamento de sockets para la visualización de información en tiempo real. Que funciona en conjunto 
-                            con una aplicación móvil híbrida que se puede descargar y compilar con IONIC 
-                            <a class="m-0" href="https://github.com/LisandroMartinez25/RealTime/tree/master/frontend/movilRealTime" target="_blank">aquí</a>. 
-                            Para esta aplicación se utilizó <b>Angular 7, IONIC 3,  CSS3, Angular Material, SocketIO, NodeJS, Express y MySQL.</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="caja2">
                 <span class="scrollMenu" id="Experiencia"></span>
                 <h2 class="subtitulo">
                     <i class="material-icons">work</i>Experiencia
                 </h2>
                 <div class="content">
                     <div class="proyecto">
-                        <h3>Rappi | <span>jul 2019 - Actualidad</span></h3>
-                        <h4>Desarrollador Front-End Sr</h4>
+                        <h3>Momento Seguros</h3>
+                        <h4>Front-End Lead</h4>
                         <p>
-                            A cargo de los derrasorrollos solicitados para el CMS de la empresa, colaborando con un equipo de 10 personas ubicadas en Colombia. 
-                            Usando <b>Angular 7.</b>
+                            Development of web and mobile applicaitions, Using React, ReactNative, NodeJs, Sequelize and PostgreSQL. Leading a team of 3 people
                         </p>
                     </div>
                     <hr>
                     <div class="proyecto">
-                        <h3>BIS Soluciones | <span>ago 2018 - jul 2019</span></h3>
-                        <h4>Consultor Sr</h4>
+                        <h3>Kavak</h3>
+                        <h4>Sr Software Engineer III</h4>
                         <p>
-                            Coordinando un equipo de 5 personas y desarrollando junto con ellos distintas aplicaciones para los clientes. 
-                            Usando <b>Angualar 6, Redux, SASS, NodeJS y SQL Server.</b>
+                            Development and maintenance Kavak system, and implement the system to new countries, Using Angular
                         </p>
                     </div>
                     <hr>
                     <div class="proyecto">
-                        <h3>CI Humana | <span>oct 2017 - ago 2018</span></h3>
+                        <h3>Intelligential</h3>
+                        <h4>Sr Enginieer</h4>
+                        <p>
+                            Development and maintenance a SAAS system for fin-techs. Using VueJs, NodeJs, Apollo, sequelize and PostgreSQL. Leading a team of 2 people
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="proyecto">
+                        <h3>Rappi</h3>
+                        <h4>Sr Front End Developer</h4>
+                        <p>
+                            Development and maintenance a CMS system for Colombia, Using Angular and Bootstrap
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="proyecto">
+                        <h3>BIS Soluciones</h3>
+                        <h4>Sr Web Developer</h4>
+                        <p>
+                            Present solutions to customers through team coordination and development of multiple applications, using NodeJS, EXPRESS Js, SQL Server, Angular 2+ and Bootstrap. Leading a team of 3 people
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="proyecto">
+                        <h3>Consultoria Informática Humana</h3>
                         <h4>Application development officer</h4>
                         <p>
-                            Coordinando un equipo de 10 personas y desarrollando junto con ellos distintas aplicaciones para los clientes. 
-                            Usando <b>Angualar 5, CSS, Bootstrap, NodeJS y MySQL.</b>
+                            Present solutions for customer processes through application development, using Node JS, Angular 2+, Bootstrap for web development, SQL Server for databases, IONIC for mobile applications. Leading a team of 6 people
                         </p>
                     </div>
                     <hr>
                     <div class="proyecto">
-                        <h3>Veolus | <span>nov 2014 - sep 2017</span></h3>
-                        <h4>Desarrollador</h4>
+                        <h3>Veolus Energía y Gestión Técnica S.A. de C.V </h3>
+                        <h4>Developer</h4>
                         <p>
-                            Desarrollo de distintas aplicaciones internas para la empresa. Usando <b>Angualar JS, Angular 2+, CSS, ASP.NET, C# y SQL Server.</b>
+                            Web application development in ASP.NET using C # for Back-End, HTML5, CSS3, JS, JQuery, Ajax, AngularJS and Bootstrap for Front-End, and SQL Server for databases; Obtaining reports from the Microsoft Dynamics Navison ERP database showing them on web pages. Leading a team of 3 people
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="seccion">
-            <div class="caja">
+            <div class="caja2">
                 <span class="scrollMenu" id="Skills"></span>
                 <h2 class="subtitulo">
                     <i class="material-icons">code</i>Skills
@@ -171,13 +149,13 @@
                         <div class="skill">
                             <h3>HTML 5</h3>
                             <div class="barraBack">
-                                <div class="barraColor w-95">
-                                    <span>95%</span>
+                                <div class="barraColor w-90">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
-                            <h3>CSS 3</h3>
+                            <h3>CSS 3 / SASS</h3>
                             <div class="barraBack">
                                 <div class="barraColor w-90">
                                     <span>90%</span>
@@ -197,15 +175,15 @@
                         <div class="skill">
                             <h3>TypeScript</h3>
                             <div class="barraBack">
-                                <div class="barraColor w-85">
-                                    <span>85%</span>
+                                <div class="barraColor w-90">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="skills">
                         <div class="skill">
-                            <h3>SQL Server</h3>
+                            <h3>React JS</h3>
                             <div class="barraBack">
                                 <div class="barraColor w-80">
                                     <span>80%</span>
@@ -213,31 +191,115 @@
                             </div>
                         </div>
                         <div class="skill">
-                            <h3>Angular 2+</h3>
-                            <div class="barraBack">
-                                <div class="barraColor w-85">
-                                    <span>85%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills">
-                        <div class="skill">
-                            <h3>Node</h3>
+                            <h3>React Native</h3>
                             <div class="barraBack">
                                 <div class="barraColor w-80">
                                     <span>80%</span>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="skills">
                         <div class="skill">
-                            <h3>MySql</h3>
+                            <h3>Angular</h3>
                             <div class="barraBack">
-                                <div class="barraColor w-75">
-                                    <span>75%</span>
+                                <div class="barraColor w-90">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
+                        <div class="skill">
+                            <h3>Node JS</h3>
+                            <div class="barraBack">
+                                <div class="barraColor w-90">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill">
+                            <h3>SQL</h3>
+                            <div class="barraBack">
+                                <div class="barraColor w-90">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>Docker</h3>
+                            <div class="barraBack">
+                                <div class="barraColor w-60">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill">
+                            <h3>Git</h3>
+                            <div class="barraBack">
+                                <div class="barraColor w-90">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>AWS</h3>
+                            <div class="barraBack">
+                                <div class="barraColor w-70">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion">
+            <div class="caja">
+                <span class="scrollMenu" id="Book"></span>
+                <h2 class="subtitulo">
+                    <i class="material-icons">book</i>Book
+                </h2>
+                <div class="content">
+                    <div class="proyecto">
+                        <h3>Trazo de Ruta</h3>
+                        <!-- <a href="http://174.138.0.228/Ruta/" target="_blank">http://174.138.0.228/Ruta/</a> -->
+                        <p>
+                           Aplicación que te permite realizar un trazo de ruta a partir de 2 direcciones ingresadas que se autocompletan. 
+                           Usando <b>Angular 8, CSS3, Angular Material y las API's de google maps.</b>
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="proyecto">
+                        <h3>Almacen</h3>
+                        <!-- <a href="http://174.138.0.228/Almacen/" target="_blank">http://174.138.0.228/Almacen/</a> -->
+                        <p>
+                            Aplicación para administrar la entrada y salida de productos. Visualizando los pedidos, producto en stock, por cobrar, 
+                            y ubicación del producto en stock. Utilizando <b>Angular 6, CSS3, Angular Material, NodeJS, Express y MySQL.</b>
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="proyecto">
+                        <h3>ATSAN</h3>
+                        <!-- <a href="http://174.138.0.228/ATSAN/" target="_blank">http://174.138.0.228/ATSAN/</a> -->
+                        <p>
+                            Aplicación administrar el flujo de un proceso, ver el estatus en el que se encuentra, así como las subtareas del proceso,
+                            agregar indicadores para cada proceso, crear plantillas de un proceso, asignar tareas a los distintos usuarios y a su vez 
+                            un rol. Utilizando <b>Angular 6, CSS3, Angular Material, NodeJS, Express y MySQL.</b>
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="proyecto">
+                        <h3>Real Time</h3>
+                        <!-- <a href="http://174.138.0.228/RealTime/" target="_blank">http://174.138.0.228/RealTime/</a> -->
+                        <p>
+                            Aplicación que muestra el funcionamento de sockets para la visualización de información en tiempo real. Que funciona en conjunto 
+                            con una aplicación móvil híbrida que se puede descargar y compilar con IONIC 
+                            <a class="m-0" href="https://github.com/LisandroMartinez25/RealTime/tree/master/frontend/movilRealTime" target="_blank">aquí</a>. 
+                            Para esta aplicación se utilizó <b>Angular 7, IONIC 3,  CSS3, Angular Material, SocketIO, NodeJS, Express y MySQL.</b>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -275,7 +337,7 @@
                     <a href="https://www.instagram.com/lisann.boost/" target="_blank"><img src="./assets/insta.png" alt="lisann.boost"></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/lisandro-uriel-de-los-santo-mart%C3%ADne-827075102/" target="_blank"><img src="./assets/linkedin.png" alt="Lisandro Uriel De los Santos Martínez"></a>
+                    <a href="https://www.linkedin.com/in/lisannm/" target="_blank"><img src="./assets/linkedin.png" alt="Lisandro Uriel De los Santos Martínez"></a>
                 </li>
                 <li>
                     <a href="https://github.com/LisandroMartinez25" target="_blank"><img src="./assets/github.png" alt="LisandroMartinez25"></a>

@@ -4,7 +4,7 @@
   align-items: center;
   padding: 10px 10px;
   font-size: 16px;
-  color: #0F1626;
+  color: #155b70;
   background: #FFF;
   border-radius: 100%;
 }
@@ -35,7 +35,7 @@
           box-shadow: -8px 0 8px rgba(0,0,0,.5);
   min-height: 100%;
   width: 200px;
-  background: #0F1626;
+  background: #155b70;
 }
 
 .main-menu a {
@@ -50,7 +50,7 @@
 .main-menu a:hover,
 .main-menu a:focus {
   background: #FFF;
-  color: #0F1626;
+  color: #155b70;
 }
 
 .main-menu .menu-close {
